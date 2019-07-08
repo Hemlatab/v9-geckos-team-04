@@ -82,7 +82,7 @@ html{
   }
 
   .col-2 {
-    min-height: calc(100vh - 100px);
+    min-height: calc(100vh - 240px);
   }
 
   .container {
@@ -114,10 +114,17 @@ html{
   }
   .feature-container{
     flex-direction: column;
+    padding: 0 !important;
   }
 
   .about-para{
     padding: 20px !important;
     text-align: left;
+  }
+  .feature-card{
+    margin: 12px 0 !important;
+    padding: 10px;
+    box-shadow: 0 0 2px 1px rgba(0,0,0,0.1);
+    border-radius: 6px;
   }
 }

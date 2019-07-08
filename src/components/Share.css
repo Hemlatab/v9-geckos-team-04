@@ -5,3 +5,8 @@
 .share-btn {
   margin: auto 10px;
 }
+
+.share-label{
+  line-height:2;
+  color: #39364d;
+}

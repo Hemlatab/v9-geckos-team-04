@@ -16,7 +16,9 @@ const Share = ({text}) => {
   const title = text;
 
   return (
+
     <div className="Share">
+    <span className="share-label">Share this : </span>
       <div className="share-btn">
         <FacebookShareButton
           url={shareUrl}
