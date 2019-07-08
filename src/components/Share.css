@@ -1,12 +1,31 @@
 .Share {
-  display: flex;  
+  display: flex;
 }
 
 .share-btn {
   margin: auto 10px;
+<<<<<<< HEAD
 }
 
 .share-label{
   line-height:2;
   color: #39364d;
 }
+=======
+  opacity: .8;
+  transform: scale(.9);
+  transition: all 300ms ease;
+  cursor: pointer;
+}
+
+.share-btn:hover, .share-btn:focus {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.share-hidden {
+  visibility: hidden;
+  transform: translateY(-50px);
+  opacity: 0;
+}
+>>>>>>> upstream/master
