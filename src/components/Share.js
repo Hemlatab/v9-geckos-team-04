@@ -20,12 +20,9 @@ const Share = ({text}) => {
   return (
 
     <div className="Share">
-<<<<<<< HEAD
     <span className="share-label">Share this : </span>
       <div className="share-btn">
-=======
       <div className={btnStyle}>
->>>>>>> upstream/master
         <FacebookShareButton
           url={shareUrl}
           quote={title}
@@ -70,7 +67,7 @@ const Share = ({text}) => {
       </div>
 
 
-
+</div>
     </div>
   );
 }
