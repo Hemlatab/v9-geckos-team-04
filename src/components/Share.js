@@ -13,8 +13,8 @@ import {
 
 
 const Share = ({text}) => {
-  const shareUrl = "https://chingu-v9-geckos-04.netlify.com/";
-  const title = text;
+  const shareUrl = "https://chingu-v9-geckos-04.netlify.com";
+  const title = text + "\n";
   const btnStyle = text ? "share-btn" : "share-btn share-hidden";
 
   return (
@@ -26,6 +26,7 @@ const Share = ({text}) => {
         <FacebookShareButton
           url={shareUrl}
           quote={title}
+          hashtag="voicerecognition"
         className="facebook">
           <FacebookIcon
             size={48}
@@ -36,7 +37,8 @@ const Share = ({text}) => {
       <div className={btnStyle}>
         <TwitterShareButton
           url={shareUrl}
-          title={title}
+          title={title + "\n"}
+          hashtags={["vext", "chingucollabs", "SpeechToText", "VoiceRecognition"]}
         className="twitter">
           <TwitterIcon
             size={48}
@@ -48,7 +50,7 @@ const Share = ({text}) => {
         <WhatsappShareButton
           url={shareUrl}
           title={title}
-          separator="'\n'"
+          separator=""
         className="whatsapp">
           <WhatsappIcon size={48} round />
         </WhatsappShareButton>
@@ -56,9 +58,10 @@ const Share = ({text}) => {
 
       <div className={btnStyle}>
         <EmailShareButton
-          url={shareUrl}
+          // url={"\n" + "Vext - Speak your mind" + "\n" + shareUrl + "\n"}
+          url={`\nVext - Speak your mind \n${shareUrl} \n`}
           subject="New Voice Message transcribed using VEXT"
-          body={text}
+          body={text + "\n"}
         className="email">
           <EmailIcon
             size={48}
