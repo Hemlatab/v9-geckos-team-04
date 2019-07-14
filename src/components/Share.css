@@ -13,16 +13,13 @@
 }
 
 .share-btn {
-<<<<<<< HEAD
   margin: auto 10px; 
 }
 
 .share-label{
   line-height:2;
   color: #39364d;
-=======
   margin: auto 5px;
->>>>>>> upstream/master
   opacity: .8;
   transform: scale(.9);
   transition: all 300ms ease;
