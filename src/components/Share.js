@@ -17,23 +17,7 @@ const Share = ({text}) => {
   const title = text + "\n";
 
   return (
-<<<<<<< HEAD
-
-    <div className="Share">
-    <span className="share-label">Share this : </span>
-      <div className="share-btn">
-      <div className={btnStyle}>
-        <FacebookShareButton
-          url={shareUrl}
-          quote={title}
-          hashtag="voicerecognition"
-        className="facebook">
-          <FacebookIcon
-            size={48}
-          round />
-        </FacebookShareButton>
-      </div>
-=======
+  
     <div className="Share" name="share">
       <label htmlFor="share">Share it!</label>
       <div className="share-btns-cont">
@@ -48,7 +32,7 @@ const Share = ({text}) => {
             round />
           </FacebookShareButton>
         </div>
->>>>>>> upstream/master
+
 
         <div className="share-btn">
           <TwitterShareButton
@@ -88,7 +72,7 @@ const Share = ({text}) => {
 
 
 </div>
-    </div>
+  
   );
 }
 

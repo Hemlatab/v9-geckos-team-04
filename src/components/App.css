@@ -112,14 +112,10 @@ html{
     height: 200px;
     margin: 15px auto;
   }
-<<<<<<< HEAD
   .feature-container{
     flex-direction: column;
     padding: 0 !important;
   }
-=======
-
->>>>>>> upstream/master
 
   .about-para{
     padding: 20px !important;
