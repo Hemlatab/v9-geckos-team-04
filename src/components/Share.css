@@ -1,14 +1,28 @@
 .Share {
   display: flex;
+  flex-direction: column;
+}
+
+.Share label {
+  font-size: 1.2em;
+  margin-bottom: .5em;
+}
+
+.share-btns-cont {
+  display: flex;
 }
 
 .share-btn {
+<<<<<<< HEAD
   margin: auto 10px; 
 }
 
 .share-label{
   line-height:2;
   color: #39364d;
+=======
+  margin: auto 5px;
+>>>>>>> upstream/master
   opacity: .8;
   transform: scale(.9);
   transition: all 300ms ease;

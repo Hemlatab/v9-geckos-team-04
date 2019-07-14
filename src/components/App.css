@@ -13,6 +13,7 @@ html{
   display: flex;
   padding: 10px 15px;
   margin-bottom: 2em;
+  min-height: calc(100vh - 150px);
 }
 
 .col-1{
@@ -87,6 +88,7 @@ html{
 
   .container {
     flex-direction: column;
+    padding-top: 0;
     margin: 0;
   }
 
@@ -94,9 +96,7 @@ html{
     font-size: 45px !important;
 
   }
-  .navbar {
-    position: static;
-  }
+
 
   .lang-select {
     font-size: .9em;
@@ -112,10 +112,14 @@ html{
     height: 200px;
     margin: 15px auto;
   }
+<<<<<<< HEAD
   .feature-container{
     flex-direction: column;
     padding: 0 !important;
   }
+=======
+
+>>>>>>> upstream/master
 
   .about-para{
     padding: 20px !important;
