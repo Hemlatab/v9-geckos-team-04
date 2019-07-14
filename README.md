@@ -5,7 +5,7 @@
 * Pablo WBK || [Github Profile](https://github.com/pablowbk)
 
 ### _Landing Page_
-![landingPage](images/)
+![landingPage](images/screencapture-vext.png)
 
 ## Technologies Used
 
